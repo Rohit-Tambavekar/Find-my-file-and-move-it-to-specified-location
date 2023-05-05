@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[9]:
-
-
 import os
 import shutil
 
@@ -47,10 +41,3 @@ else:
         print(f"{file_for_name} was successfully moved to {dst}")
     except FileNotFoundError:
         print(f"{file_for_name} not found in {src}")
-
-
-# In[ ]:
-
-
-
-
